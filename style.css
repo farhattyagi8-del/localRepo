@@ -1,3 +1,48 @@
-p{
-    color:brown;
+div{
+    background-color:rgb(14, 78, 75);
+    height: 100px;
+    width:100px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
+.inner{
+    height: 35%;
+    width: 35%;
+    background-color: aquamarine;
+    align-items: center;
+}
+h1{
+    font-family: 7vmin;
+}
+.div1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(61, 61, 238);
+}
+@media(max-width: 400px) and ( min-width: 300px){
+    .div1{
+        display:flex;
+        background-color: aqua;
+    }
+    div{
+        display: flexbox;
+        align-items: row;
+    }
+} 
+/* div{
+    background-color:plum;
+    width: 45%;
+    font-size: 30px;
+}
+h1{
+    font-size:1.85rem ;
+}
+h2{
+    font-size: 1rem;
+
+
+}
+h3{
+    font-size: 2rem;
+} */
